@@ -2,17 +2,14 @@
 
 # LibreSpeed Turnstile
 
-Fork from librespeed(https://github.com/librespeed/speedtest)
-Add Cloudflare Turnstile validation.
-
-## Try it
-[Take a Speedtest](https://librespeed.org)
+Speedtest with Cloudflare Turnstile validation
 
 ## Compatibility
 All modern browsers are supported: IE11, latest Edge, latest Chrome, latest Firefox, latest Safari.  
 Works with mobile versions too.
 
 ## Features
+* Cloudflare Turnstile validation
 * Download
 * Upload
 * Ping
@@ -21,9 +18,6 @@ Works with mobile versions too.
 * Telemetry (optional)
 * Results sharing (optional)
 * Multiple Points of Test (optional)
-* Cloudflare Turnstile validation.
-
-![Screenshot](https://speedtest.fdossena.com/mpot_v6.gif)
 
 
 ## Server requirements
@@ -33,6 +27,8 @@ Works with mobile versions too.
 * A fast! internet connection
 
 ## Installation 
+* Edit file cf-turnstile/config.php, change TurnStile_Site_Key to your own Cloudflare TurnStile server side "Secret Key"
+* Edit file index.html, change line 369, change "sitekey" to your own Cloudflare TurnStile client side "Site Key"
 
 ## Go backend
 
