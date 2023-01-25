@@ -1,10 +1,9 @@
-![LibreSpeed Logo](https://github.com/librespeed/speedtest/blob/master/.logo/logo3.png?raw=true)
+![LibreSpeed Turnstile Logo](https://github.com/librespeed/speedtest/blob/master/.logo/logo3.png?raw=true)
 
-# LibreSpeed
+# LibreSpeed Turnstile
 
-No Flash, No Java, No Websocket, No Bullshit.
-
-This is a very lightweight Speedtest implemented in Javascript, using XMLHttpRequest and Web Workers.
+Fork from librespeed(https://github.com/librespeed/speedtest)
+Add Cloudflare Turnstile validation.
 
 ## Try it
 [Take a Speedtest](https://librespeed.org)
@@ -22,6 +21,7 @@ Works with mobile versions too.
 * Telemetry (optional)
 * Results sharing (optional)
 * Multiple Points of Test (optional)
+* Cloudflare Turnstile validation.
 
 ![Screenshot](https://speedtest.fdossena.com/mpot_v6.gif)
 
@@ -32,24 +32,13 @@ Works with mobile versions too.
 * MySQL database to store test results (optional, PostgreSQL and SQLite also supported)
 * A fast! internet connection
 
-## Installation videos
-* [Quick start installation guide for Ubuntu Server 19.04](https://fdossena.com/?p=speedtest/quickstart_v5_ubuntu.frag)
-
-## Android app
-A template to build an Android client for your LibreSpeed installation is available [here](https://github.com/librespeed/speedtest-android).
-
-## Docker
-A docker image is available on the [Docker Hub](https://registry.hub.docker.com/r/adolfintel/speedtest), see `doc_docker.md` for more info about it
+## Installation 
 
 ## Go backend
-A Go implementation is available in the [`speedtest-go`](https://github.com/librespeed/speedtest-go) repo, maintained by [Maddie Zhan](https://github.com/maddie).
 
 ## Node.js backend
-A partial Node.js implementation is available in the `node` branch, developed by [dunklesToast](https://github.com/dunklesToast). It's not recommended to use at the moment.
 
 ## Donate
-[![Donate with Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/fdossena/donate)  
-[Donate with PayPal](https://www.paypal.me/sineisochronic)  
 
 ## License
 Copyright (C) 2016-2022 Federico Dossena

@@ -1,5 +1,8 @@
 <?php
 
+// Turnstile
+include_once('../cf-turnstile/cf-turnstile.php');
+
 /*
  * This script detects the client's IP address and fetches ISP info from ipinfo.io/
  * Output from this script is a JSON string composed of 2 objects: a string called processedString which contains the combined IP, ISP, Country and distance as it can be presented to the user; and an object called rawIspInfo which contains the raw data from ipinfo.io (will be empty if isp detection is disabled).

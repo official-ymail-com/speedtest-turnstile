@@ -1,5 +1,8 @@
 <?php
 
+// Turnstile
+include_once('../cf-turnstile/cf-turnstile.php');
+
 // Disable Compression
 @ini_set('zlib.output_compression', 'Off');
 @ini_set('output_buffering', 'Off');

@@ -1,5 +1,8 @@
 <?php
 
+// Turnstile
+include_once('../cf-turnstile/cf-turnstile.php');
+
 header('HTTP/1.1 200 OK');
 
 if (isset($_GET['cors'])) {
