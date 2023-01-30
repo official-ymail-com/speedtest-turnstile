@@ -369,7 +369,7 @@ window.onloadTurnstileCallback = function () {
         sitekey: '0x4AAAAAAACIokQ1234567',
         callback: function(token) {
 			//console.log(token);
-			fetch('./backend/cf-turnstile.php', {
+			fetch('./cf-turnstile/cf-turnstile.php', {
 				method: 'POST',
 				body: JSON.stringify({
 					cf_turnstile_response: token,
